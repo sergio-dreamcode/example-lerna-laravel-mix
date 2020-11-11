@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "watch": "lerna run watch --parallel",
+    "build": "lerna run build --parallel",
+    "bootstrap": "lerna bootstrap --use-workpsaces"
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
